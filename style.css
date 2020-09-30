@@ -82,6 +82,10 @@
 
 /* Navigation bar */
 
+.barra-menu {
+  width: 100%;
+}
+
 nav.barra-menu div {
   display:inline-block;
   text-decoration: none;
