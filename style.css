@@ -85,13 +85,12 @@
 nav.barra-menu div {
   display:inline-block;
   text-decoration: none;
-  padding: 10% 10%;
+  padding: 10px 15px;
   background: none;
 }
 
 nav.barra-menu div > div > a {
   font-weight: bold;
-  padding: 1em 1.5em;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -104,21 +103,16 @@ nav.barra-menu > div > div:hover {
 
 /* map styler */
 
-menu > iframe {
+.mapas {
+  padding: 7%;
+}
+
+iframe {
   margin: 15px;
   margin-bottom: 15px;
   outline: 1px solid rgb(51, 51, 51);
   box-shadow: 0 5px 2px -2px lightgrey;
 }
-
-.mapas {
-  display: grid;
-  grid-column-start: 5;
-  grid-column-end: 1;
-  position: relative;
-  justify-content: center;
-}
-
 
 /* contact form */
 input, select, textarea {
